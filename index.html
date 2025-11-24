@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>Leo Segre – Computer Vision Researcher</title>
+
+  <!-- Meta tags -->
+  <meta name="keywords" content="Leo Segre, Multi-View Foundation Models, VF-NeRF, Optimize the Unseen, Gaussian Splatting, 3D Computer Vision, AI research">
+  <meta property="og:site_name" content="Leo Segre">
+  <meta property="og:title" content="Leo Segre">
+  <meta name="description" content="Leo Segre – Computer Vision Researcher">
+  <meta property="og:description" content="Leo Segre – Computer Vision Researcher">
+  <meta property="og:type" content="website" />
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+  <link href="./static/css/fontawesome.all.min.css" rel="stylesheet">
+  <link href="./static/css/academicons.min.css" rel="stylesheet">
+  <link href="./static/css/bulma.min.css" rel="stylesheet">
+  <link href="./static/css/index.css" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/5.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <style>
+    .custom-paper-button {
+      background-color: #4CAF50 !important;
+      border-color: #4CAF50 !important;
+      margin-right: 10px;
+    }
+
+    .custom-talks-button {
+      background-color: #2196F3 !important;
+      border-color: #2196F3 !important;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Hero section -->
+  <section class="hero">
+    <div class="hero-body container is-max-desktop">
+      <div class="columns is-vcentered">
+        <div class="column is-4">
+          <p class="image is-square">
+            <!-- Replace this with your own profile image -->
+            <img class="is-rounded" src="./static/images/profile.jpg" alt="Profile photo of Leo Segre">
+          </p>
+        </div>
+        <div class="column">
+          <h1 class="title">
+            <b>Leo Segre</b>
+          </h1>
+          <div class="content has-text-justified">
+            <p>
+              I am a Ph.D. candidate at
+              the <a href="https://en-engineering.tau.ac.il/School-of-Electrical-Engineering/main">School of Electrical Engineering</a>
+              at <a href="https://english.tau.ac.il">Tel-Aviv University</a>, advised by
+              <a href="https://scholar.google.com/citations?user=hpItE1QAAAAJ&hl=en">Prof. Shai Avidan</a>.
+            </p>
+
+            <p>
+              My research interests include AI, machine learning, and computer vision. More specifically, I work on 3D reconstruction methods such as NeRF and 3D Gaussian splatting, multi-view foundation models, and geometric correspondence in complex real-world scenes.
+            </p>
+
+            <div class="buttons">
+              <a class="external-link button" href="mailto:leosegre@gmail.com">
+                <span class="icon"><i class="fas fa-envelope"></i></span>
+                <span>Email</span>
+              </a>
+
+              <a class="external-link button" href="https://github.com/leosegre">
+                <span class="icon"><i class="fab fa-github"></i></span>
+                <span>Github</span>
+              </a>
+
+              <a class="external-link button" href="https://scholar.google.com/citations?hl=iw&user=A7FWhoIAAAAJ">
+                <span class="icon"><i class="ai ai-google-scholar"></i></span>
+                <span>Google Scholar</span>
+              </a>
+
+              <a class="external-link button" href="https://x.com/leosegre">
+                <span class="icon"><i class="fab fa-x-twitter"></i></span>
+                <span>Twitter</span>
+              </a>
+
+              <a class="external-link button" href="https://il.linkedin.com/in/leo-segre">
+                <span class="icon"><i class="fa-brands fa-linkedin"></i></span>
+                <span>LinkedIn</span>
+              </a>
+            </div>
+
+            <div class="columns is-centered">
+              <a class="external-link button is-primary custom-paper-button" href="#papers">
+                <span>Papers</span>
+              </a>
+
+              <a class="external-link button is-primary custom-talks-button" href="#talks">
+                <span>Talks</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Divider -->
+  <div class="hr">
+    <div class="container">
+      <hr>
+    </div>
+  </div>
+
+  <!-- Publications -->
+  <section class="section" id="papers">
+    <div class="container is-max-desktop">
+
+      <h2 class="title is-3">Publications</h2>
+
+      <!-- Multi-View Foundation Models -->
+      <div class="publication-block columns is-vcentered">
+        <div class="column is-3">
+          <div class="publication-mouse-animate">
+            <p class="static">
+              <!-- Placeholder image, replace file later -->
+              <img src="./static/images/projects/multiview.jpg" alt="Multi-View Foundation Models teaser">
+            </p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+            <h3 class="publication-title"><a href="#">Multi-View Foundation Models</a></h3>
+            <div class="publication-venue">Coming soon</div>
+            <div class="publication-authors">
+              <span class="author-block author-block-"><b>Leo Segre*</b></span>,
+              <span class="author-block author-block-"><b>Or Hirschorn*</b></span>,
+              <span class="author-block author-block-"><b>Shai Avidan</b></span>
+            </div>
+
+            <p class="publication-description">
+              We introduce multi-view foundation models that equip powerful 2D vision backbones with the ability to reason jointly across multiple camera views. By explicitly incorporating camera geometry, our approach produces 3D-consistent semantic representations without per-scene optimization, enabling scalable 3D understanding and correspondence.
+            </p>
+
+            <div class="publication-links buttons">
+              <a class="external-link button is-small is-rounded" href="#">
+                <span class="icon"><i class="fas fa-globe-europe"></i></span>
+                <span>Project Page</span>
+              </a>
+              <a class="external-link button is-small is-rounded" href="#">
+                <span class="icon"><i class="ai ai-arxiv"></i></span>
+                <span>arXiv</span>
+              </a>
+              <a class="external-link button is-small is-rounded" href="#">
+                <span class="icon"><i class="fas fab fa-github"></i></span>
+                <span>Code</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Frequency Aware Gaussian Splatting Decomposition -->
+      <div class="publication-block columns is-vcentered">
+        <div class="column is-3">
+          <div class="publication-mouse-animate">
+            <p class="static">
+              <!-- Placeholder image -->
+              <img src="./static/images/projects/fa-gs.png" alt="Frequency Aware Gaussian Splatting Decomposition teaser">
+            </p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+            <h3 class="publication-title">
+              <a href="https://yishailavi.github.io/nerfstudio_lap/">Frequency Aware Gaussian Splatting Decomposition</a>
+            </h3>
+            <div class="publication-venue">3DV 2026</div>
+            <div class="publication-authors">
+              <span class="author-block author-block-"><b>Yishai Lavi</b></span>,
+              <span class="author-block author-block-"><b>Leo Segre</b></span>,
+              <span class="author-block author-block-"><b>Shai Avidan</b></span>
+            </div>
+
+            <p class="publication-description">
+              We propose a frequency-aware decomposition of 3D Gaussian splatting that disentangles low- and high-frequency content in a scene. This separation improves rendering quality and robustness, and yields a more interpretable representation that is particularly useful for downstream tasks such as editing, cleanup, and reconstruction refinement.
+            </p>
+
+            <div class="publication-links buttons">
+              <a class="external-link button is-small is-rounded" href="https://yishailavi.github.io/nerfstudio_lap/">
+                <span class="icon"><i class="fas fa-globe-europe"></i></span>
+                <span>Project Page</span>
+              </a>
+              <a class="external-link button is-small is-rounded" href="https://arxiv.org/pdf/2503.21226">
+                <span class="icon"><i class="ai ai-arxiv"></i></span>
+                <span>arXiv</span>
+              </a>
+              <a class="external-link button is-small is-rounded" href="https://github.com/yishailavi/nerfstudio_lap/tree/main">
+                <span class="icon"><i class="fas fab fa-github"></i></span>
+                <span>Code</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Optimize the Unseen -->
+      <div class="publication-block columns is-vcentered">
+        <div class="column is-3">
+          <div class="publication-mouse-animate">
+            <p class="static">
+              <!-- Placeholder image -->
+              <img src="./static/images/projects/nerf_cleanup.png" alt="Optimize the Unseen teaser">
+            </p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+            <h3 class="publication-title">
+              <a href="https://leosegre.github.io/optimize-the-unseen/">Optimize the Unseen</a>
+            </h3>
+            <div class="publication-venue">NeurIPS 2025</div>
+            <div class="publication-authors">
+              <span class="author-block author-block-"><b>Leo Segre</b></span>
+            </div>
+
+            <p class="publication-description">
+              We address the challenge of cleaning and improving neural 3D reconstructions in regions that are poorly observed or entirely unseen. Our method leverages semantic priors and multi-view consistency to hallucinate plausible geometry and appearance, yielding cleaner, more coherent reconstructions that generalize beyond the input views.
+            </p>
+
+            <div class="publication-links buttons">
+              <a class="external-link button is-small is-rounded" href="https://leosegre.github.io/optimize-the-unseen/">
+                <span class="icon"><i class="fas fa-globe-europe"></i></span>
+                <span>Project Page</span>
+              </a>
+              <a class="external-link button is-small is-rounded" href="https://arxiv.org/pdf/2412.12772v3">
+                <span class="icon"><i class="ai ai-arxiv"></i></span>
+                <span>arXiv</span>
+              </a>
+              <a class="external-link button is-small is-rounded" href="https://github.com/leosegre/Optimize-the-Unseen">
+                <span class="icon"><i class="fas fab fa-github"></i></span>
+                <span>Code</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- VF-NeRF -->
+      <div class="publication-block columns is-vcentered">
+        <div class="column is-3">
+          <div class="publication-mouse-animate">
+            <p class="static">
+              <!-- Placeholder image -->
+              <img src="./static/images/projects/vf_nerf.png" alt="VF-NeRF teaser">
+            </p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+            <h3 class="publication-title">
+              <a href="https://leosegre.github.io/VF_NeRF/">VF-NeRF: Viewshed Fields for Rigid NeRF Registration</a>
+            </h3>
+            <div class="publication-venue">ECCV 2024</div>
+            <div class="publication-authors">
+              <span class="author-block author-block-"><b>Leo Segre</b></span>
+            </div>
+
+            <p class="publication-description">
+              We introduce VF-NeRF, a viewshed-based approach for rigid NeRF registration. By modeling which parts of a scene are visible from each camera pose, our method robustly aligns NeRFs to reference geometry, even in the presence of partial observations and large-scale outdoor environments.
+            </p>
+
+            <div class="publication-links buttons">
+              <a class="external-link button is-small is-rounded" href="https://leosegre.github.io/VF_NeRF/">
+                <span class="icon"><i class="fas fa-globe-europe"></i></span>
+                <span>Project Page</span>
+              </a>
+              <a class="external-link button is-small is-rounded" href="https://arxiv.org/pdf/2404.03349">
+                <span class="icon"><i class="ai ai-arxiv"></i></span>
+                <span>arXiv</span>
+              </a>
+              <a class="external-link button is-small is-rounded" href="https://github.com/leosegre/VF_NeRF">
+                <span class="icon"><i class="fas fab fa-github"></i></span>
+                <span>Code</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Shape-Consistent GANs -->
+      <div class="publication-block columns is-vcentered">
+        <div class="column is-3">
+          <div class="publication-mouse-animate">
+            <p class="static">
+              <!-- Placeholder image -->
+              <img src="./static/images/projects/ShapeConsistent.png" alt="Shape-Consistent GANs teaser">
+            </p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+            <h3 class="publication-title">
+              <a href="https://arxiv.org/pdf/2201.09693">Shape-Consistent Generative Adversarial Networks for Multi-Modal Medical Segmentation Maps</a>
+            </h3>
+            <div class="publication-venue">ISBI 2022</div>
+            <div class="publication-authors">
+              <span class="author-block author-block-"><b>Leo Segre*</b></span>,
+              <span class="author-block author-block-"><b>Or Hirschorn*</b></span>,
+              <span class="author-block author-block-"><b>Dvir Ginzburg</b></span>,
+              <span class="author-block author-block-"><b>Dan Raviv</b></span>
+            </div>
+
+            <p class="publication-description">
+              We propose a shape-consistent GAN framework for cross-modality adaptation between CT and MRI whole-heart scans. By enforcing geometric consistency across modalities, our method improves semantic segmentation performance when labeled data is limited or available only in one modality.
+            </p>
+
+            <div class="publication-links buttons">
+              <a class="external-link button is-small is-rounded" href="https://arxiv.org/pdf/2201.09693">
+                <span class="icon"><i class="ai ai-arxiv"></i></span>
+                <span>arXiv</span>
+              </a>
+              <a class="external-link button is-small is-rounded" href="https://github.com/orhir/3D-Shape-Consistent-GAN">
+                <span class="icon"><i class="fas fab fa-github"></i></span>
+                <span>Code</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Talks -->
+  <section class="section" id="talks">
+    <div class="container is-max-desktop">
+      <h2 class="title is-2">Talks</h2>
+
+      <div class="publication-block columns is-vcentered">
+        <div class="column">
+          <div class="content">
+            <h3 class="publication-title">VF-NeRF: Viewshed Fields for Rigid NeRF Registration</h3>
+            <div class="publication-venue">Tel-Aviv University Computer Vision Seminar</div>
+            <div class="publication-authors">
+              <span class="author-block author-block-">June 18, 2024</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Add more talks here later if needed -->
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+
+      <div class="content has-text-centered">
+        <h2 class="title is-2">Contact Me</h2>
+      </div>
+
+      <div class="content has-text-centered">
+        <a href="mailto:leosegre@gmail.com">
+          <i class="fas fa-envelope"></i>
+        </a>
+
+        <a class="external-link" href="https://github.com/leosegre">
+          <i class="fab fa-github"></i>
+        </a>
+
+        <a class="external-link" href="https://scholar.google.com/citations?hl=iw&user=A7FWhoIAAAAJ">
+          <i class="ai ai-google-scholar"></i>
+        </a>
+
+        <a class="external-link" href="https://x.com/leosegre">
+          <i class="fab fa-x-twitter"></i>
+        </a>
+
+        <a class="external-link" href="https://il.linkedin.com/in/leo-segre">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
