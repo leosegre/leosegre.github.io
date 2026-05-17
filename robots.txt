@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://leosegre.github.io/sitemap.xml

@@ -7,12 +7,65 @@
   <title>Leo Segre – Computer Vision Researcher</title>
 
   <!-- Meta tags -->
-  <meta name="keywords" content="Leo Segre, Multi-View Foundation Models, VF-NeRF, Optimize the Unseen, Gaussian Splatting, 3D Computer Vision, AI research">
+  <meta name="keywords" content="Leo Segre, Shai Avidan, Tel-Aviv University, NVIDIA Research, AI, Computer Vision, 3D, Foundation Models, Multi-View Foundation Models, VF-NeRF, Optimize the Unseen, Scene Grounding, NeRF, Gaussian Splatting, 3D Reconstruction, 3D Computer Vision, AI research">
+  <meta name="author" content="Leo Segre">
+  <meta name="description" content="Leo Segre is a Ph.D. candidate in Electrical Engineering at Tel-Aviv University, advised by Prof. Shai Avidan, and a Research Intern at NVIDIA Research Israel AI Lab. Research on 3D reconstruction, NeRF, Gaussian splatting, and multi-view foundation models.">
+  <link rel="canonical" href="https://leosegre.github.io/">
+
+  <!-- Open Graph -->
   <meta property="og:site_name" content="Leo Segre">
-  <meta property="og:title" content="Leo Segre">
-  <meta name="description" content="Leo Segre – Computer Vision Researcher">
-  <meta property="og:description" content="Leo Segre – Computer Vision Researcher">
+  <meta property="og:title" content="Leo Segre – Computer Vision Researcher">
+  <meta property="og:description" content="Ph.D. candidate at Tel-Aviv University (advised by Prof. Shai Avidan) and Research Intern at NVIDIA Research Israel AI Lab. 3D reconstruction, NeRF, Gaussian splatting, multi-view foundation models.">
   <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://leosegre.github.io/">
+  <meta property="og:image" content="https://leosegre.github.io/static/images/profile.jpg">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@leosegre">
+  <meta name="twitter:creator" content="@leosegre">
+  <meta name="twitter:title" content="Leo Segre – Computer Vision Researcher">
+  <meta name="twitter:description" content="Ph.D. candidate at Tel-Aviv University (advised by Prof. Shai Avidan) and Research Intern at NVIDIA Research Israel AI Lab.">
+  <meta name="twitter:image" content="https://leosegre.github.io/static/images/profile.jpg">
+
+  <!-- Structured data: Person -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Leo Segre",
+    "url": "https://leosegre.github.io/",
+    "image": "https://leosegre.github.io/static/images/profile.jpg",
+    "jobTitle": "Ph.D. Candidate",
+    "email": "mailto:leosegre@gmail.com",
+    "affiliation": [
+      {
+        "@type": "CollegeOrUniversity",
+        "name": "Tel-Aviv University",
+        "url": "https://english.tau.ac.il"
+      },
+      {
+        "@type": "Organization",
+        "name": "NVIDIA Research Israel AI Lab",
+        "url": "https://research.nvidia.com/labs/par/"
+      }
+    ],
+    "knowsAbout": [
+      "Computer Vision",
+      "3D Reconstruction",
+      "Neural Radiance Fields",
+      "Gaussian Splatting",
+      "Multi-View Foundation Models",
+      "Machine Learning"
+    ],
+    "sameAs": [
+      "https://scholar.google.com/citations?hl=iw&user=A7FWhoIAAAAJ",
+      "https://github.com/leosegre",
+      "https://il.linkedin.com/in/leo-segre",
+      "https://x.com/leosegre"
+    ]
+  }
+  </script>
 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
   <link href="./static/css/fontawesome.all.min.css" rel="stylesheet">
@@ -20,7 +73,6 @@
   <link href="./static/css/bulma.min.css" rel="stylesheet">
   <link href="./static/css/index.css" rel="stylesheet">
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/5.5.1/jquery.min.js"></script>
   <script defer src="./static/js/fontawesome.all.min.js"></script>
   <style>
     .custom-paper-button {
@@ -54,9 +106,10 @@
           <div class="content has-text-justified">
             <p>
               I am a Ph.D. candidate at
-              the <a href="https://en-engineering.tau.ac.il/School-of-Electrical-Engineering/main">School of Electrical Engineering</a>
-              at <a href="https://english.tau.ac.il">Tel-Aviv University</a>, advised by
-              <a href="https://scholar.google.com/citations?user=hpItE1QAAAAJ&hl=en">Prof. Shai Avidan</a>.
+              the <a href="https://en-engineering.tau.ac.il/School-of-Electrical-Engineering/main">School of Electrical Engineering</a>,
+              <a href="https://english.tau.ac.il">Tel-Aviv University</a>, advised by
+              <a href="https://scholar.google.com/citations?user=hpItE1QAAAAJ&hl=en">Prof. Shai Avidan</a>,
+              and currently a Research Intern at the <a href="https://research.nvidia.com/labs/par/">NVIDIA Research Israel AI Lab</a>.
             </p>
 
             <p>
@@ -152,6 +205,51 @@
                 <span>arXiv</span>
               </a>
               <a class="external-link button is-small is-rounded" href="https://github.com/leosegre/Multi-View-Foundation-Models">
+                <span class="icon"><i class="fas fab fa-github"></i></span>
+                <span>Code</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scene Grounding in The Wild -->
+      <div class="publication-block columns is-vcentered">
+        <div class="column is-3">
+          <div class="publication-mouse-animate">
+            <p class="static">
+              <img src="./static/images/projects/scene_grounding.jpeg" alt="Scene Grounding in The Wild teaser">
+            </p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+            <h3 class="publication-title">
+              <a href="https://tau-vailab.github.io/SceneGround/">Scene Grounding in The Wild</a>
+            </h3>
+            <div class="publication-venue">CVPR 2026</div>
+            <div class="publication-authors">
+              <span class="author-block author-block-"><b>Tamir Cohen</b></span>,
+              <span class="author-block author-block-"><b>Leo Segre</b></span>,
+              <span class="author-block author-block-"><b>Shay Shomer Chai</b></span>,
+              <span class="author-block author-block-"><b>Shai Avidan</b></span>,
+              <span class="author-block author-block-"><b>Hadar Averbuch-Elor</b></span>
+            </div>
+
+            <p class="publication-description">
+              We address the problem of grounding partial, in-the-wild 3D reconstructions in a globally consistent reference model. By representing the reference scene as a feature-augmented 3D Gaussian Splatting model and solving an inverse feature-based optimization, our method recovers a global 6DoF pose and scale for each reconstruction — yielding consistent alignment even across disconnected scenes with no visual overlap.
+            </p>
+
+            <div class="publication-links buttons">
+              <a class="external-link button is-small is-rounded" href="https://tau-vailab.github.io/SceneGround/">
+                <span class="icon"><i class="fas fa-globe-europe"></i></span>
+                <span>Project Page</span>
+              </a>
+              <a class="external-link button is-small is-rounded" href="https://arxiv.org/pdf/2603.26584">
+                <span class="icon"><i class="ai ai-arxiv"></i></span>
+                <span>arXiv</span>
+              </a>
+              <a class="external-link button is-small is-rounded" href="https://github.com/TAU-VAILab/SceneGround">
                 <span class="icon"><i class="fas fab fa-github"></i></span>
                 <span>Code</span>
               </a>
@@ -336,6 +434,18 @@
   <section class="section" id="talks">
     <div class="container is-max-desktop">
       <h2 class="title is-2">Talks</h2>
+
+      <div class="publication-block columns is-vcentered">
+        <div class="column">
+          <div class="content">
+            <h3 class="publication-title">3D-Consistent Representations</h3>
+            <div class="publication-venue">University of Haifa Computer Science Department Seminar</div>
+            <div class="publication-authors">
+              <span class="author-block author-block-">May 17, 2026</span>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <div class="publication-block columns is-vcentered">
         <div class="column">
